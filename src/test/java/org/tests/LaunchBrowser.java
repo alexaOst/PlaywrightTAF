@@ -23,8 +23,8 @@ public class LaunchBrowser {
 
         page.waitForTimeout(5000); // wait for 5 seconds to see the page
 
-//        page.close();
-//        playwright.close(); // kill the session and close the browser
+        page.close();
+        playwright.close(); // kill the session and close the browser
 
 
     }
